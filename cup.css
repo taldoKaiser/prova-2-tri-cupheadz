@@ -1,0 +1,60 @@
+/* Mudança da cor do fundo da página */
+body {
+    background-color: #ff0000; /* Cor de fundo vermelha vibrante */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilização do título */
+h1 {
+    color: #ffffff; /* Título em branco */
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Centralização e borda arredondada para a imagem de perfil */
+img.perfil {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilização da seção "Sobre Mim" */
+h2 {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+p {
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+    text-align: justify;
+    color: #ffffff;
+}
+
+/* Estilização da lista de hobbies/interesses */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    color: #ffd700; /* Cor dourada para os itens da lista */
+    margin-bottom: 5px;
+}
+
+/* Personalização do link com efeito hover */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffd700; /* Muda para dourado ao passar o mouse */
+    text-decoration: underline;
+}
